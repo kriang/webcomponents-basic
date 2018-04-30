@@ -34,3 +34,9 @@ The code above is asking babel to compile the src/app.js to vanilla javascript a
 
 * public/index.html
 This is where you can insert basic scripts and also add custom stylesheets
+
+
+Once you have the above setup ready, you can get started and update the content in the src/app.js
+* A basic component has been created for you
+* You can add a stylesheet either inline or an external file to the public/index.html page to start styling the message class. The message class can be found on line 9 of the src/app.js file.
+* Once done, you can control the message displayed in the component by seeing an example on line 29
