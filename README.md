@@ -3,7 +3,7 @@
 
 ## Running the project
 
-Note: If you have not used babel or live-server before then please install it's global dependency by typing "npm install --save-dev babel-cli" and "npm install -g live-server". Do not install live-server if you intedn to use your own web server
+Note: If you have not used babel or live-server before then please install it's global dependency by typing "npm install -g babel-cli" and "npm install -g live-server". Do not install live-server if you intedn to use your own web server
 
 
 Clone the repo, cd into 'webcomponent' directory and run
