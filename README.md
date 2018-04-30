@@ -3,6 +3,9 @@
 
 ## Running the project
 
+Note: If you have not used babel or live-server before then please install it's global dependency by typing "npm install --save-dev babel-cli" and "npm install -g live-server". Do not install live-server if you intedn to use your own web server
+
+
 Clone the repo, cd into 'webcomponent' directory and run
 
 ```
@@ -10,7 +13,7 @@ npm install
 ```
 
 
-Once the process completes, run the following
+Once the process completes, run the following 
 
 ```
 live-server public
@@ -25,6 +28,7 @@ Files that you will be working on includes the following
 
 * src/app.js
 This is where you write and manipulate components. In order for web browsers to be able to read react javascript from the src/app.js file, it needs to be compiled to vanilla javscript. Run the code below to  
+
 
 ```
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
