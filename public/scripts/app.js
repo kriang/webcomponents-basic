@@ -30,7 +30,7 @@ var FirstComponent = function (_React$Component) {
                     'h1',
                     null,
                     'Hello World! ',
-                    this.props.name ? this.props.name : ''
+                    this.props.greeting ? this.props.greeting : ''
                 )
             );
         }
@@ -45,4 +45,4 @@ var FirstComponent = function (_React$Component) {
 ReactDOM.render(React.createElement(FirstComponent, null), appRoot);
 
 //Using React to Render FirstComponent with the name props passed to it.
-//ReactDOM.render(<FirstComponent name="Some Name" />, appRoot);
+//ReactDOM.render(<FirstComponent greeting="Name" />, appRoot);

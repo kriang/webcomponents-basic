@@ -10,11 +10,12 @@ class FirstComponent extends React.Component {
                 {
                     /* 
                         This is rendered to the screen. The portion after "Hello World!" checks whether the 
-                        name props is parsed down in the component
+                        greeting props is parsed down in the component and if yes, display the prop otherwise
+                        display nothing
 
                     */
                 }  
-		        <h1>Hello World! { this.props.name ? this.props.name : '' }</h1>
+		        <h1>Hello World! { this.props.greeting ? this.props.greeting : '' }</h1>
 	      	</div>
 	    );
   	}
@@ -26,4 +27,4 @@ ReactDOM.render(<FirstComponent />, appRoot);
 
 
 //Using React to Render FirstComponent with the name props passed to it.
-//ReactDOM.render(<FirstComponent name="Some Name" />, appRoot);
+//ReactDOM.render(<FirstComponent greeting="Name" />, appRoot);
